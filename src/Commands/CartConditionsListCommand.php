@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Soap\LaravelCartConditions\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class CartConditionsListCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'cart-conditions:list';
 
     public $description = 'My command';
 
